@@ -1,5 +1,5 @@
 ==================================================================
-# Course Project
+# README for Course Project
 ==================================================================
 
 This repo contains the following:
@@ -15,15 +15,15 @@ run_analysis.R
 
 - run_analysis.R runs in five steps:
 
-1. Reads the UCI data and clips the subject and activity labels, as well as the raw data together for the respective test and train sets of data.
+	1. Reads the UCI data and clips the subject and activity labels, as well as the raw data together for the respective test and train sets of data.
 
-2. Combines the test and train data into one table using rbind().
+	2. Combines the test and train data into one table using rbind().
 
-3. Labels the dataset using the appropriate names from the features.txt file. Converts the numerical data in the “Activity” column into a factor and renames the labels with their descriptive equivalents from the “activity_labels.txt” file. 
+	3. Labels the dataset using the appropriate names from the features.txt file. Converts the numerical data in the “Activity” column into a factor and renames the labels with their descriptive equivalents from the “activity_labels.txt” file. 
 
-4. Subsets the table so that only mean() and std() data feature. The table excludes meanfreq() for simplicity.
+	4. Subsets the table so that only mean() and std() data feature. The table excludes meanfreq() for simplicity.
 
-5. Creates the independent tidy data set that provides the mean values for each activity performed by each person.
+	5. Creates the independent tidy data set that provides the mean values for each activity performed by each person.
 
 
 courseproject.txt
