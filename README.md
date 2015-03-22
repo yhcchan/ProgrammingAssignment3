@@ -26,10 +26,11 @@ run_analysis.R
 
 	5. Creates the independent tidy data set that provides the mean values for each activity performed by each person.
 
+- More details can be found in the .R file itself, which has detailed comments on the code.
 
 courseproject.txt
 
-- This is the resulting data set from the run_analysis.R script. To read the table, run read.table(“./courseproject.txt”) in R.
+- This is the resulting data set from the run_analysis.R script. 
 
 Codebook.md
 
