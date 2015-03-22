@@ -9,13 +9,11 @@ A description of each variable is as follows. The numbering corresponds to the r
 
 1. 	Subject
 
-	This is a factor variable that identifies the subject the data corresponds to. As there are 30 subjects, the levels of 		this variable are [1-30].
+	- This is a factor variable that identifies the subject the data corresponds to. As there are 30 subjects, the levels of 	this variable are [1-30].
 
 2. 	Activity
 
-	- This is a factor variable that identifies which activity corresponds to the data. As there are 6 activities, there are six (6) labels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
-
-	The following are the rest of the variables included in the table. Each value represents the average reading of that 		variable, which corresponds to one activity undertaken by one subject. The units are unchanged from the original data, 		i.e. the variables prefixed by ’t’ are time domain signals (seconds), while those prefixed by ‘f’ are frequency domain 		signals (Hz). All values are normalized between [-1, 1].
+	- This is a factor variable that identifies which activity corresponds to the data. As there are 6 activities, there are 	six (6) labels: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 
 3.	tBodyAcc-mean()-X
 4.	tBodyAcc-mean()-Y
@@ -83,3 +81,5 @@ A description of each variable is as follows. The numbering corresponds to the r
 66.	fBodyBodyAccJerkMag-std()
 67.	fBodyBodyGyroMag-std()
 68.	fBodyBodyGyroJerkMag-std()
+
+The above are the rest of the variables included in the table. Each value represents the average reading of that 		variable, which corresponds to one activity undertaken by one subject. The units are unchanged from the original data, 		i.e. the variables prefixed by ’t’ are time domain signals (seconds), while those prefixed by ‘f’ are frequency domain 		signals (Hz). All values are normalized between [-1, 1].
