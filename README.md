@@ -8,6 +8,7 @@ This repo contains the following:
 	-courseproject.txt
 	-Codebook.md
 	-README.md
+==================================================================
 
 run_analysis.R
 
