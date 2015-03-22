@@ -4,10 +4,10 @@
 
 This repo contains the following:
 
-run_analysis.R
-courseproject.txt
-Codebook.md
-README.md
+	-run_analysis.R
+	-courseproject.txt
+	-Codebook.md
+	-README.md
 
 run_analysis.R
 
